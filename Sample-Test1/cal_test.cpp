@@ -3,12 +3,14 @@
 
 TEST(CalTest, devideTest) {
 	int expected = 2;
-	int actual = getDevice(4, 2);
+	int actual = getDevide(4, 2);
 	EXPECTED_EQ(expected, actual);
+}
 
 TEST(TestCaseName, getSumTest) {
 	EXPECT_EQ(getSum(5, 10), 15);
-	EXPECT_TRUE(true);	
+	EXPECT_TRUE(true);
+}
 
 TEST(Cal, getGop) {
   int expected = 6;
@@ -29,4 +31,10 @@ TEST(TestCaseName, ZegopTest2) {
 
 TEST(TestCal, getMinus) {
   EXPECT_EQ(5, getMinus(10,5));
+}
+
+
+TEST(TestCaseName, getSumSumTest) {
+	EXPECT_EQ(12, getSumSum(3, 4, 5));
+	EXPECT_TRUE(true);
 }

@@ -1,7 +1,9 @@
 
-
-int getDevice(int a, int b) {
-		return a / b;
+int getDevide(int a, int b) {
+	return a / b;
+}
+int getSumSum(int a, int b, int c) {
+	return a + b + c;
 }
 
 int getGop(int a, int b) {
@@ -9,9 +11,9 @@ int getGop(int a, int b) {
 }
 
 
-int getSum(int a, int b)
-{
+int getSum(int a, int b){
 	return a + b;
+}
 
 double  getZegop(double a) {
 	return a * a;
