@@ -4,7 +4,7 @@
 TEST(CalTest, devideTest) {
 	int expected = 2;
 	int actual = getDevide(4, 2);
-	EXPECTED_EQ(expected, actual);
+	EXPECT_EQ(expected, actual);
 }
 
 TEST(TestCaseName, getSumTest) {
