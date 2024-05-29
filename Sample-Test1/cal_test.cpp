@@ -1,6 +1,12 @@
 #include "pch.h"
 #include "../project1/cal.cpp"
 
+TEST(CalTest, devideTest) {
+	int expected = 2;
+	int actual = getDevide(4, 2);
+	EXPECTED_EQ(expected, actual);
+}
+
 TEST(TestCaseName, getSumTest) {
 	EXPECT_EQ(getSum(5, 10), 15);
 	EXPECT_TRUE(true);
