@@ -7,3 +7,7 @@ TEST(Cal, getGop) {
 
   EXPECT_EQ(actual, expected);
 }
+
+TEST(TestCal, getMinus) {
+  EXPECT_EQ(5, getMinus(10,5));
+}
