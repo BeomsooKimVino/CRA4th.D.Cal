@@ -4,6 +4,7 @@
 TEST(TestCaseName, getSumTest) {
 	EXPECT_EQ(getSum(5, 10), 15);
 	EXPECT_TRUE(true);
+}
 
 TEST(Cal, getGop) {
   int expected = 6;
@@ -25,7 +26,6 @@ TEST(TestCaseName, ZegopTest2) {
 TEST(TestCal, getMinus) {
   EXPECT_EQ(5, getMinus(10,5));
 }
-
 
 TEST(TestCaseName, getSumSumTest) {
 	EXPECT_EQ(12, getSumSum(3, 4, 5));
