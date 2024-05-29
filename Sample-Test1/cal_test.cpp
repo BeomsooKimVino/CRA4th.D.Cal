@@ -2,9 +2,6 @@
 #include "../project1/cal.cpp"
 
 TEST(TestCaseName, getSumSumTest) {
-	int a = 3;
-	int b = 4;
-	int c = 5;
-	EXPECT_EQ(a+b+c, getSumSum(a, b, c));
+	EXPECT_EQ(12, getSumSum(3, 4, 5));
 	EXPECT_TRUE(true);
 }
