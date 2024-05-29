@@ -1,6 +1,11 @@
 #include "pch.h"
 #include "../project1/cal.cpp"
 
+
+TEST(TestCaseName, getSumTest) {
+	EXPECT_EQ(getSum(5, 10), 15);
+	EXPECT_TRUE(true);
+
 TEST(Cal, getGop) {
   int expected = 6;
   int actual = getGop(2, 3);
