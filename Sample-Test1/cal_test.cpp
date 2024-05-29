@@ -1,6 +1,8 @@
 #include "pch.h"
+#include "../project1/cal.cpp"
 
-TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
-  EXPECT_TRUE(true);
+TEST(CalTest, devideTest) {
+	int expected = 2;
+	int actual = Cal.getDevice(4, 2);
+	EXPECTED_EQ(expected, actual);
 }
